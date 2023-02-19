@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <title>AP Desarrolladora Web</title>
+</head>
+
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>AP</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#proyectos" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- ICONO DEL MENU RESPONSIVE -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class='fa-solid fa-bars'></i>
+                    </div>
+
+                    <!-- ICONOS DE LAS REDES SOCIALES -->
+                    <div class="redes">
+                        <a href="https://github.com/AnabelaParareda" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/xaepsx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100002399173829" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">BIENVENIDOS</p>
+                <h2>Soy <span>Anna</span>, Desarrolladora Web.</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI-->
+    <section id="sobremi">
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola, soy <span>Anabela Parareda</span></h2>
+            <p>Tengo 22 años y soy de Buenos aires, Argentina. Me considero una persona ingeniosa y detallista, aprendo rápido y me se desenvolver ante conflictos que surgan inesperadamente. Me gusta e interesa el mundo del desarrollo hace varios años, hasta que tomé la decisión e inicié en la Universidad Provincial de Ezeiza en la Tecnicatura en Desarollo de Software y luego tomé varios cursos online. Lo que me apasiona del desarrollo es que se pueden crear cosas increibles con esfuerzo, dedicación e imaginación. </p>
+            <p>Suelo ser freelancer la mayoria del tiempo pero siempre estoy preparada para una oportunidad laboral, cuento con experiencia en Front-end, un poco de Back-end y Marketing digital. Me gustaria seguir aprendiendo, desafiandome y crear cosas interesantes.</p>
+            <a href="#">Descargar CV</a>
+        </div>
+    </section>
+
+    <!-- SECCION HABILIDADES -->
+    <div class="contenedor-skills" id="skills">
+        <h3> HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Javascript</p>
+                <span class="porcentaje">70%</span>
+            </div>
+    
+            <div class="barra">
+                <div id="js" class="barra-progreso1"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Html y Css</p>
+                <span class="porcentaje">70%</span>
+            </div>
+    
+            <div class="barra">
+                <div id="htmlcss" class="barra-progreso2"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Flutter</p>
+                <span class="porcentaje">60%</span>
+            </div>
+    
+            <div class="barra">
+                <div id="flutter" class="barra-progreso3"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Base de Datos</p>
+                <span class="porcentaje">50%</span>
+            </div>
+    
+            <div class="barra">
+                <div id="bd" class="barra-progreso4"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PROYECTOS -->
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactame ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje" class="input-full"></textarea>
+                </div>
+                    <input type="submit" value="Enviar mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+    </div>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://github.com/AnabelaParareda" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/xaepsx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100002399173829" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
