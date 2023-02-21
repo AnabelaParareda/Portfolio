@@ -8,6 +8,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
     <title>AP Desarrolladora Web</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('7t-x1Sthn7IqkWnxl');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // these IDs from the previous steps
+                emailjs.sendForm('service_ykwqthv', 'contactForm19', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        document.getElementById('contactForm').reset();
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -107,13 +129,13 @@
     <section id="contacto">
         <h3 class="titulo-seccion">Contactame</h3>
         <div class="contenedor-form">
-            <form action="">
+            <form id="contactForm" action="">
                 <div class="fila mitad">
-                    <input type="text" placeholder="Nombre completo" class="input-mitad">
-                    <input type="text" placeholder="Dirección de Email" class="input-mitad">
+                    <input name="full_name" type="text" placeholder="Nombre completo" class="input-mitad">
+                    <input name="email"  type="text" placeholder="Dirección de Email" class="input-mitad">
                 </div>
                 <div class="fila">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje" class="input-full"></textarea>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu mensaje" class="input-full"></textarea>
                 </div>
                     <input type="submit" value="Enviar mensaje" class="btn-enviar">
             </form>
