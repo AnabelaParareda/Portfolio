@@ -125,6 +125,7 @@ html{
 #sobremi .sobremi .titulo-seccion{
     font-size: 20px;
     text-transform: uppercase;
+    text-align: center;
     color: #7b4b9e;
 }
 
@@ -132,6 +133,8 @@ html{
     font-size: 20px;
     line-height: 25px;
     color: #000000;
+    padding: 20px 20px;
+    text-align: left;
 }
 
 #sobremi .sobremi h2{
@@ -173,7 +176,7 @@ html{
     font-size: 17px;
     color: #fff;
     background-position: center center;
-    padding: 100px 0;
+    padding: 100px 20px;
     text-align: center;
 }
 
