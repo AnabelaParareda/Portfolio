@@ -12,7 +12,6 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
-            // https://dashboard.emailjs.com/admin/account
             emailjs.init('7t-x1Sthn7IqkWnxl');
         })();
     </script>
@@ -20,7 +19,6 @@
         window.onload = function() {
             document.getElementById('contactForm').addEventListener('submit', function(event) {
                 event.preventDefault();
-                // these IDs from the previous steps
                 emailjs.sendForm('service_ykwqthv', 'contactForm19', this)
                     .then(function() {
                         console.log('SUCCESS!');
