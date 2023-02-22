@@ -139,8 +139,7 @@ html{
 
 #sobremi .sobremi h2{
     font-size: 25px;
-    margin: 20px 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding: 40px;
 }
 
@@ -266,13 +265,13 @@ html{
 /* SECCION CONTACTO */
 
 #contacto{
-    padding: 100px 15px;
+    padding: 100px 20px;
 }
 
 #contacto .titulo-seccion{
     margin-bottom: 45px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
     color: #000000;
     text-decoration-color: #000000;
@@ -331,14 +330,14 @@ footer{
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 50px;
 }
 
 footer a{
     text-decoration: none;
     color: #ffffff;
     display: inline-block;
-    margin: 5px;
+    margin: 3px;
     font-size: 20px;
 }
 
@@ -356,7 +355,7 @@ footer a{
         background: linear-gradient(#000000b3, #000000b3);
         width: 100%;
         position: absolute;
-        top: 52px;
+        top: 53px;
         left: 0;
         padding: 15px 0;   
     }
