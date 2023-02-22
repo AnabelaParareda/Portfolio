@@ -187,16 +187,9 @@ html{
 }
 
 .contenedor-skills .skill .info {
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
-}
-
-.contenedor-skills .skill .lista {
-    display: inline-block;
-    margin-right: 20px;
-    height: 10px;
-    width: 10px;
-    background-color: #fff;
 }
 
 .contenedor-skills .skill .barra {
@@ -208,28 +201,28 @@ html{
 
 .contenedor-skills .skill .barra .barra-progreso1 {
     background-color: #ffffff;
-    width: 70%;
+    width: 80%;
     height: 6px;
     animation: progreso1 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso2 {
     background-color: #ffffff;
-    width: 70%;
+    width: 60%;
     height: 6px;
     animation: progreso2 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso3 {
     background-color: #ffffff;
-    width: 60%;
+    width: 50%;
     height: 6px;
     animation: progreso3 2s forwards;
 }
 
 .contenedor-skills .skill .barra .barra-progreso4 {
     background-color: #ffffff;
-    width: 50%;
+    width: 45%;
     height: 6px;
     animation: progreso4 2s forwards;
 }
@@ -239,7 +232,7 @@ html{
         width: 0;
     }
     100% {
-        width: 70%;
+        width: 80%;
     }
 }
 
@@ -248,7 +241,7 @@ html{
         width: 0;
     }
     100% {
-        width: 70%;
+        width: 60%;
     }
 }
 
@@ -257,7 +250,7 @@ html{
         width: 0;
     }
     100% {
-        width: 60%;
+        width: 50%;
     }
 }
 
@@ -266,7 +259,7 @@ html{
         width: 0;
     }
     100% {
-        width: 50%;
+        width: 45%;
     }
 }
 
