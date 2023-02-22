@@ -49,14 +49,14 @@ html{
 
 #inicio .contenido header .contenido-header nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     margin: 0 12px;
     font-weight: 400;
     transition: .5s;
 }
 
 #inicio .contenido header .contenido-header nav ul a:hover{
-    color: #7b4b9e; 
+    color: #b486d6; 
 }
 
 #inicio .contenido header .contenido-header .redes a{
@@ -176,7 +176,7 @@ html{
     font-size: 17px;
     color: #fff;
     background-position: center center;
-    padding: 100px 20px;
+    padding: 175px 20px;
     text-align: center;
 }
 
@@ -265,7 +265,7 @@ html{
 /* SECCION CONTACTO */
 
 #contacto{
-    padding: 100px 20px;
+    padding: 110px 20px;
 }
 
 #contacto .titulo-seccion{
