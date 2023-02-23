@@ -76,7 +76,7 @@ html{
  }
 
 #inicio .contenido .presentacion{
-    max-width: 1200px; 
+    max-width: 1000px; 
     height: 100vh;
     margin: auto;
     color: #fff;
@@ -265,7 +265,7 @@ html{
 /* SECCION CONTACTO */
 
 #contacto{
-    padding: 110px 20px;
+    padding: 100px 20px;
 }
 
 #contacto .titulo-seccion{
