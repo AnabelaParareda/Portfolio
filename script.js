@@ -19,7 +19,7 @@ function responsiveMenu() {
         x.className = "";
     }
 }
-window.onscroll = function() { efectoHabilidades() };
+window.onscroll = function() {efectoHabilidades()};
 
 function efectoHabilidades() {
     var skills = document.getElementById("skills");
