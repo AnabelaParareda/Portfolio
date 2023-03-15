@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/icono.ico">
     <title>AP Web Developer</title>
+    <script defer src="validate.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
         (function() {
@@ -132,14 +133,14 @@
         <h3 class="titulo-seccion">Contactame</h3>
         <div class="contenedor-form">
             <form id="contactForm" action="">
-                <div class="fila mitad">
-                    <input name="full_name" type="text" placeholder="Nombre completo" class="input-mitad">
-                    <input name="email"  type="text" placeholder="Dirección de Email" class="input-mitad">
+                <div class="formulario" id="form">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="contacto__input"> <!--<i class="contacto__validacion-estado fa-light fa-circle-xmark"></i>-->
+                    <input type="email" id="email" name="email" placeholder="Email" class="contacto__input">
                 </div>
-                <div class="fila">
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Tu mensaje.." class="input-full"></textarea>
+                <div class="casilla">
+                    <textarea type="message" id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje.." class="input-full" style="width: 770px; height: 200px;"></textarea>
                 </div>
-                    <input type="submit" value="Enviar mensaje" class="btn-enviar">
+                    <input type="submit" value="Enviar" class="btn-enviar">
             </form>
         </div>
     </section>
@@ -156,6 +157,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
