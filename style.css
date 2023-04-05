@@ -342,27 +342,6 @@ footer a{
     font-size: 15px;
 }
 
-/* SECCION CORRECTO E INCORRECTO 
-
-.contacto__grupo-correcto .contacto__validacion-estado {
-	color: #1ed12d;
-	opacity: 1;
-}
-
-.contacto__grupo-incorrecto .contacto__label {
-	color: #bb2929;
-}
-
-.contacto__grupo-incorrecto .contacto__validacion-estado {
-	color: #bb2929;
-	opacity: 1;
-}
-
-.contacto__grupo-incorrecto .contacto__input {
-	border: 3px solid #bb2929;
-} */
-
-/* SECCION RESPONSIVE */
 
 @media screen and (max-width:800px) {
     .redes {
