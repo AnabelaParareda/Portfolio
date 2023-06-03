@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/icono.ico">
+    <link rel="icon" href="img/logo.ico">
     <title>AP Web Developer</title>
     <script defer src="validate.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
@@ -34,18 +34,18 @@
 
 <body>
     <!-- SECCION INICIO -->
-    <section id="inicio">
-        <div class="contenido">
+    <section id="about">
+        <div class="content">
             <header>
-                <div class="contenido-header">
+                <div class="content-header">
                     <h1>AP</h1>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#inicio" onclick="seleccionar(this)">INICIO</a></li>
-                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
-                            <li><a href="#habilidades" onclick="seleccionar(this)">HABILIDADES</a></li>
-                            <li><a href="#proyectos" onclick="seleccionar(this)">PROYECTOS</a></li>
-                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a href="#about" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#aboutme" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#myskills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                            <li><a href="#projects" onclick="seleccionar(this)">PROYECTOS</a></li>
+                            <li><a href="#contact" onclick="seleccionar(this)">CONTACTO</a></li>
                         </ul>
                     </nav>
                     <!-- ICONO DEL MENU RESPONSIVE -->
@@ -69,8 +69,8 @@
     </section>
 
     <!-- SECCION SOBRE MI-->
-    <section id="sobremi">
-        <div class="sobremi">
+    <section id="aboutme">
+        <div class="aboutme">
             <p class="titulo-seccion">Sobre mi</p>
             <h2>Hola, mi nombre es <span>Anabela Parareda</span></h2>
             <p>Tengo 22 años y soy de Buenos Aires, Argentina. Me considero una persona ingeniosa y detallista, aprendo rápido y me se desenvolver ante conflictos que surgan inesperadamente. Me gusta e interesa el mundo del desarrollo hace varios años, hasta que tomé la decisión e inicié en la Universidad Provincial de Ezeiza en la Tecnicatura en Desarollo de Software y luego tomé varios cursos online. Lo que me apasiona del desarrollo es que se pueden crear cosas increibles con esfuerzo, dedicación e imaginación. </p>
@@ -80,9 +80,9 @@
     </section>
 
     <!-- SECCION HABILIDADES -->
-    <section id="habilidades">
-    <div class="contenedor-skills" id="skills">
-        <h3> HABILIDADES </h3>
+    <section id="myskills">
+    <div class="container-skills" id="skills">
+        <h3>HABILIDADES</h3>
         <div class="skill">
             <div class="info">
                 <p>Front-end</p>
@@ -129,13 +129,13 @@
     <!-- SECCION PROYECTOS -->
 
     <!-- SECCION CONTACTO -->
-    <section id="contacto">
+    <section id="contact">
         <h3 class="titulo-seccion">Contactame</h3>
-        <div class="contenedor-form">
+        <div class="container-form">
             <form id="contactForm" action="">
                 <div class="formulario" id="form">
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="contacto__input"> <!--<i class="contacto__validacion-estado fa-light fa-circle-xmark"></i>-->
-                    <input type="email" id="email" name="email" placeholder="Email" class="contacto__input">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="contact__input"> <!--<i class="contact__validacion-estado fa-light fa-circle-xmark"></i>-->
+                    <input type="email" id="email" name="email" placeholder="Email" class="contact__input">
                 </div>
                 <div class="casilla">
                     <textarea type="message" id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje.." class="input-full" style="width: 770px; height: 200px;"></textarea>
