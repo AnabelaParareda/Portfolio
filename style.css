@@ -1,25 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,200&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 /* SECCION ABOUT */
 
-#about{
-    background: linear-gradient(#000000b3, #000000b3), url("img/fondito5.png");
+#about {
+    background: linear-gradient(#000000b3, #000000b3), url("img/fondito5-transformed.png");
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
 
-#about .content header{
+#about .content header {
     background-color: #000000b3;
     position: fixed;
     width: 100%;
@@ -27,7 +28,7 @@ html{
     top: 0;
 }
 
-#about .content header .content-header{
+#about .content header .content-header {
     max-width: 1200px;
     margin: auto;
     display: flex;
@@ -36,18 +37,18 @@ html{
     padding: 12px 20px;
 }
 
-#about .content header .content-header h1{
+#about .content header .content-header h1 {
     text-align: center;
     color: #7b4b9e;
 }
 
-#about .content header .content-header nav ul{
+#about .content header .content-header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-#about .content header .content-header nav ul li a{
+#about .content header .content-header nav ul li a {
     text-decoration: none;
     color: #ffffff;
     margin: 0 12px;
@@ -55,11 +56,11 @@ html{
     transition: .5s;
 }
 
-#about .content header .content-header nav ul a:hover{
-    color: #b486d6; 
+#about .content header .content-header nav ul a:hover {
+    color: #b486d6;
 }
 
-#about .content header .content-header .redes a{
+#about .content header .content-header .redes1 a {
     text-decoration: none;
     font-size: 22px;
     color: #7b4b9e;
@@ -67,16 +68,16 @@ html{
     transition: .5s;
 }
 
- #about .content header .content-header .redes a:hover{
-     color: #ffffff;
- }
+#about .content header .content-header .redes1 a:hover {
+    color: #ffffff;
+}
 
- #about .content header .content-header .seleccionado{
-     color: #7b4b9e; 
- }
+#about .content header .content-header .seleccionado {
+    color: #7b4b9e;
+}
 
-#about .content .presentacion{
-    max-width: 1000px; 
+#about .content .presentacion {
+    max-width: 1000px;
     height: 100vh;
     margin: auto;
     color: #fff;
@@ -86,31 +87,31 @@ html{
     justify-content: center;
 }
 
-#about .content .presentacion .bienvenida{
+#about .content .presentacion .bienvenida {
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
 }
 
-#about .content .presentacion h2{
+#about .content .presentacion h2 {
     font-size: 40px;
     margin-bottom: 25px;
     text-align: center;
 }
 
-#about .content .presentacion h2 span{
-    color: #7b4b9e; 
+#about .content .presentacion h2 span {
+    color: #7b4b9e;
 }
 
-#icono-nav{
+#icono-nav {
     color: #fff;
     display: none;
 }
 
 /* SECCION ABOUT ME*/
 
-#aboutme{
+#aboutme {
     max-width: 1000px;
     margin: auto;
     padding: 80px 0;
@@ -118,36 +119,36 @@ html{
     display: flex;
 }
 
-#aboutme .aboutme{
+#aboutme .aboutme {
     text-align: center;
 }
 
-#aboutme .aboutme .titulo-seccion{
+#aboutme .aboutme .titulo-seccion {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
     color: #7b4b9e;
 }
 
-#aboutme .aboutme p{
+#aboutme .aboutme p {
     font-size: 20px;
     line-height: 25px;
     color: #000000;
     padding: 10px 20px;
-    text-align: left;
+
 }
 
-#aboutme .aboutme h2{
+#aboutme .aboutme h2 {
     font-size: 25px;
     letter-spacing: 1px;
     padding: 40px;
 }
 
-#aboutme .aboutme h2 span{
-    color:#7b4b9e;
+#aboutme .aboutme h2 span {
+    color: #7b4b9e;
 }
 
-#aboutme .aboutme a{
+#aboutme .aboutme a {
     display: inline-block;
     text-decoration: none;
     border-radius: 18px;
@@ -160,7 +161,7 @@ html{
     transition: .5s;
 }
 
-#aboutme .aboutme a:hover{
+#aboutme .aboutme a:hover {
     background-color: #7b4b9e;
     color: #fff;
 }
@@ -169,7 +170,7 @@ html{
 /* SECCION SKILLS */
 
 .container-skills {
-    background: linear-gradient( #7b4b9e, #000000cc), url("img/fondito4.jpg");
+    background: linear-gradient(#000000b3, #000000b3), url("img/fondito4-transformed.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,6 +231,7 @@ html{
     0% {
         width: 0;
     }
+
     100% {
         width: 80%;
     }
@@ -239,6 +241,7 @@ html{
     0% {
         width: 0;
     }
+
     100% {
         width: 60%;
     }
@@ -248,6 +251,7 @@ html{
     0% {
         width: 0;
     }
+
     100% {
         width: 50%;
     }
@@ -257,60 +261,130 @@ html{
     0% {
         width: 0;
     }
+
     100% {
         width: 45%;
     }
 }
 
+/* SECCION PROYECTOS */
+
+#projects {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #0000001a;
+    padding: 60px 10px;
+    width: 250px;
+    transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+    box-shadow: 0 4px 8px #743e81;
+}
+
+.project img{
+    width: 100%;
+}
+
+#projects h2 {
+    color: #7b4b9e;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.project h3 {
+    color: #000000;
+    font-size: 18px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#projects p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+}
+
+.project a{
+    color: #753685;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: none;
+}
+
 /* SECCION CONTACTO */
 
-#contact{
+#contact {
+    background: linear-gradient(#000000b3, #000000b3), url("img/fondo6.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
     padding: 80px 20px;
 }
 
-#contact .titulo-seccion{
+#contact .titulo-seccion {
     margin-bottom: 45px;
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
-    color: #000000;
+    color: #d8c5e9;
     text-decoration-color: #000000;
     text-decoration-thickness: 5px;
 }
 
-#contact .container-form{
+#contact .container-form {
     max-width: 800px;
-    margin: auto; 
+    margin: auto;
 }
 
-#contact .container-form .formulario{
+#contact .container-form .formulario {
     margin-bottom: 15px;
 }
 
-#contact .container-form .casilla{
+#contact .container-form .casilla {
     margin-bottom: 15px;
-    justify-content: space-between; 
+    justify-content: space-between;
     display: flex;
 }
 
 #contact .container-form input,
-#contact .container-form textarea{
+#contact .container-form textarea {
     padding: 20px;
     border-radius: 20px;
     border: none;
     border: 1px solid #7b4b9e;
 }
 
-#contact .container-form .formulario input{
+#contact .container-form .formulario input {
     width: 48%;
 }
 
-#contact .container-form .input-full{
+#contact .container-form .input-full {
     padding: 20px;
-    width: 100%;  
+    width: 100%;
 }
 
-#contact .btn-enviar{
+#contact .btn-enviar {
+    background-color: #d8c5e9;;
     display: block;
     margin: auto;
     cursor: pointer;
@@ -320,21 +394,21 @@ html{
     font-weight: bold;
 }
 
-#contact .btn-enviar:hover{
+#contact .btn-enviar:hover {
     background-color: #7b4b9e;
     color: #ffffff;
 }
 
 /* SECCION FOOTER */
 
-footer{
+footer {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 10px 30px;
+    padding: 30px 0px;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: #ffffff;
     display: inline-block;
@@ -344,56 +418,73 @@ footer a{
 
 
 @media screen and (max-width:800px) {
-    .redes {
+    .redes1 {
         display: none;
-    } 
+    }
+
+    .redes2 {
+        display: block;
+    }
+
     nav {
         display: none;
     }
-    nav.responsive{
+
+    nav.responsive {
         display: block;
         background: linear-gradient(#000000b3, #000000b3);
         width: 100%;
         position: absolute;
         top: 53px;
         left: 0;
-        padding: 15px 0;   
+        padding: 15px 0;
     }
-    nav.responsive ul{
+
+    nav.responsive ul {
         display: block !important;
         text-align: center;
     }
-    nav.responsive ul li{
+
+    nav.responsive ul li {
         margin: 5px 0;
     }
-    #icono-nav{
+
+    #icono-nav {
         display: block;
     }
-    #about .content .presentacion h2{
+
+    #about .content .presentacion h2 {
         font-size: 40px;
     }
-    #aboutme{
+
+    #aboutme {
         padding: 50px 0;
         display: block;
     }
-    #aboutme .aboutme .titulo-seccion{
+
+    #aboutme .aboutme .titulo-seccion {
         text-align: center;
     }
-    #aboutme .aboutme h2{
+
+    #aboutme .aboutme h2 {
         font-size: 25px;
         text-align: center;
     }
-    .container-skill{
+
+    .container-skill {
         padding: 50px 20px;
     }
+
     #contact {
         padding: 50px 15px;
     }
-    #contact .container-form .formulario{
+
+    #contact .container-form .formulario {
         margin-bottom: 15px;
         display: block;
     }
-    #contact .container-form .formulario input{
+
+    #contact .container-form .formulario input {
         width: 100%;
         margin-bottom: 15px;
     }
