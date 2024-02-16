@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* SECCION ABOUT */
+/* HOME SECTION */
 
 #about {
     background: linear-gradient(#000000b3, #000000b3), url("img/fondito5-transformed.png");
@@ -60,7 +60,7 @@ html {
     color: #b486d6;
 }
 
-#about .content header .content-header .redes1 a {
+#about .content header .content-header .networks1 a {
     text-decoration: none;
     font-size: 22px;
     color: #7b4b9e;
@@ -68,7 +68,7 @@ html {
     transition: .5s;
 }
 
-#about .content header .content-header .redes1 a:hover {
+#about .content header .content-header .networks1 a:hover {
     color: #ffffff;
 }
 
@@ -76,7 +76,7 @@ html {
     color: #7b4b9e;
 }
 
-#about .content .presentacion {
+#about .content .presentation {
     max-width: 1000px;
     height: 100vh;
     margin: auto;
@@ -87,20 +87,20 @@ html {
     justify-content: center;
 }
 
-#about .content .presentacion .bienvenida {
+#about .content .presentation .welcome {
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-#about .content .presentacion h2 {
+#about .content .presentation h2 {
     font-size: 40px;
     margin-bottom: 25px;
     text-align: center;
 }
 
-#about .content .presentacion h2 span {
+#about .content .presentation h2 span {
     color: #7b4b9e;
 }
 
@@ -109,7 +109,7 @@ html {
     display: none;
 }
 
-/* SECCION ABOUT ME*/
+/* ABOUT ME SECTION */
 
 #aboutme {
     max-width: 1000px;
@@ -123,7 +123,7 @@ html {
     text-align: center;
 }
 
-#aboutme .aboutme .titulo-seccion {
+#aboutme .aboutme .section-title {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -162,12 +162,12 @@ html {
 }
 
 #aboutme .aboutme a:hover {
-    background-color: #7b4b9e;
+    background-color:  #2f1346;
     color: #fff;
 }
 
 
-/* SECCION SKILLS */
+/* SKILLS SECTION */
 
 .container-skills {
     background: linear-gradient(#000000b3, #000000b3), url("img/fondito4-transformed.jpeg");
@@ -267,7 +267,7 @@ html {
     }
 }
 
-/* SECCION PROYECTOS */
+/* PROJECTS SECTION */
 
 #projects {
     max-width: 1000px;
@@ -331,23 +331,21 @@ html {
     text-decoration: none;
 }
 
-/* SECCION CONTACTO */
+/* CONTACT SECTION */
 
 #contact {
     background: linear-gradient(#000000b3, #000000b3), url("img/fondo6.jpg");
     background-size: cover;
     background-position: center center;
-    height: 100vh;
     padding: 80px 20px;
 }
 
-#contact .titulo-seccion {
+#contact .section-title {
     margin-bottom: 45px;
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
-    color: #d8c5e9;
-    text-decoration-color: #000000;
+    color: #ffffff;
     text-decoration-thickness: 5px;
 }
 
@@ -356,11 +354,11 @@ html {
     margin: auto;
 }
 
-#contact .container-form .formulario {
+#contact .container-form .form {
     margin-bottom: 15px;
 }
 
-#contact .container-form .casilla {
+#contact .container-form .box {
     margin-bottom: 15px;
     justify-content: space-between;
     display: flex;
@@ -374,7 +372,7 @@ html {
     border: 1px solid #7b4b9e;
 }
 
-#contact .container-form .formulario input {
+#contact .container-form .form input {
     width: 48%;
 }
 
@@ -383,8 +381,8 @@ html {
     width: 100%;
 }
 
-#contact .btn-enviar {
-    background-color: #d8c5e9;;
+#contact .btn-send {
+    background-color: #ffffff;;
     display: block;
     margin: auto;
     cursor: pointer;
@@ -394,12 +392,12 @@ html {
     font-weight: bold;
 }
 
-#contact .btn-enviar:hover {
-    background-color: #7b4b9e;
+#contact .btn-send:hover {
+    background-color: #2f1346;
     color: #ffffff;
 }
 
-/* SECCION FOOTER */
+/* FOOTER SECTION */
 
 footer {
     background-color: #000000;
@@ -413,16 +411,16 @@ footer a {
     color: #ffffff;
     display: inline-block;
     margin: 2px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 
 @media screen and (max-width:800px) {
-    .redes1 {
+    .networks1 {
         display: none;
     }
 
-    .redes2 {
+    .networks2 {
         display: block;
     }
 
@@ -453,7 +451,7 @@ footer a {
         display: block;
     }
 
-    #about .content .presentacion h2 {
+    #about .content .presentation h2 {
         font-size: 40px;
     }
 
@@ -462,7 +460,7 @@ footer a {
         display: block;
     }
 
-    #aboutme .aboutme .titulo-seccion {
+    #aboutme .aboutme .section-title {
         text-align: center;
     }
 
