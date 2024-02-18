@@ -38,7 +38,7 @@ function efectoHabilidades() {
 const form = document.getElementById('contactForm');
 form.addEventListener('submit', function(event) {
   event.preventDefault();
-  const nombre = document.getElementById('nombre').value;
+  const nombre = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const mensaje = document.getElementById('mensaje').value;
   const emailRegex = /\S+@\S+\.\S+/;

@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <!-- SECCION INICIO -->
+    <!-- HOME SECTION -->
     <section id="about">
         <div class="content">
             <header>
@@ -41,52 +41,52 @@
                     <h1>AP</h1>
                     <nav id="nav" class="">
                         <ul id="links">
-                            <li><a href="#about" onclick="seleccionar(this)">INICIO</a></li>
-                            <li><a href="#aboutme" onclick="seleccionar(this)">SOBRE MI</a></li>
-                            <li><a href="#myskills" onclick="seleccionar(this)">HABILIDADES</a></li>
-                            <li><a href="#projects" onclick="seleccionar(this)">PROYECTOS</a></li>
-                            <li><a href="#contact" onclick="seleccionar(this)">CONTACTO</a></li>
+                            <li><a href="#about" onclick="select(this)">HOME</a></li>
+                            <li><a href="#aboutme" onclick="select(this)">ABOUT ME</a></li>
+                            <li><a href="#myskills" onclick="select(this)">SKILLS</a></li>
+                            <li><a href="#projects" onclick="select(this)">PROJECTS</a></li>
+                            <li><a href="#contact" onclick="select(this)">CONTACT</a></li>
                         </ul>
                     </nav>
-                    <!-- ICONO DEL MENU RESPONSIVE -->
+                    <!-- RESPONSIVE MENU ICON -->
                     <div id="icono-nav" onclick="responsiveMenu()">
                     <i class='fa-solid fa-bars'></i>
                     </div>
 
-                    <!-- ICONOS DE LAS REDES SOCIALES -->
-                    <div class="redes1">
+                    <!-- SOCIAL NETWORKS ICONS -->
+                    <div class="networks1">
                         <a href="https://www.linkedin.com/in/anabela-parareda-653523229/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/AnabelaParareda" target="_blank"><i class="fa-brands fa-github"></i></a>
                         <a href="https://www.instagram.com/xaepsx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </header>
-            <div class="presentacion">
-                <p class="bienvenida">BIENVENIDOS</p>
-                <h2>Soy <span>Anna</span>, Web Developer.</h2>
+            <div class="presentation">
+                <p class="welcome">WELCOME</p>
+                <h2>I'm <span>Anna</span>, Web Developer.</h2>
             </div>
         </div>
     </section>
 
-    <!-- SECCION SOBRE MI-->
+    <!-- ABOUT ME SECTION -->
     <section id="aboutme">
         <div class="aboutme">
-            <p class="titulo-seccion">Sobre mi</p>
-            <h2>¡Hola, soy <span>Anabela Parareda!</span></h2>
-            <p>Tengo 22 años y soy de Buenos Aires, Argentina. Me considero una persona ingeniosa y detallista, aprendo rápido y me se desenvolver ante conflictos que surjan inesperadamente. Me gusta e interesa el mundo del desarrollo hace varios años, hasta que tomé la decisión e inicié en la Universidad Provincial de Ezeiza en la Tecnicatura en Desarollo de Software y luego tomé varios cursos online. Lo que me apasiona del desarrollo es que se pueden crear cosas increibles con esfuerzo, dedicación e imaginación. </p>
-            <p>Suelo ser freelancer la mayoria del tiempo pero siempre estoy preparada para una oportunidad laboral, cuento con experiencia en Front-end, un poco de Back-end y Marketing digital. Me gustaria seguir aprendiendo, desafiandome y crear cosas interesantes.</p>
-            <a download="Cv Anabela Parareda" href="CvLinkedinAnabelaParareda.pdf"> Visualizar CV </a>
+            <p class="section-title">About me</p>
+            <h2>Hi, i'm <span>Anna!</span></h2>
+            <p>I am 22 years old and I am from Buenos Aires, Argentina. I consider myself a resourceful and detail-oriented person, I learn quickly and can handle conflicts that arise unexpectedly. I have been interested in and involved in the world of development for several years, until I made the decision to start at the Provincial University of Ezeiza in the Software Development Technology course and then took several online courses. What I am passionate about in development is that incredible things can be created with effort, dedication, and imagination.</p>
+            <p>I usually work as a freelancer most of the time, but I am always prepared for a job opportunity. I have experience in Front-end, some in Back-end, and Digital Marketing. I would like to continue learning, challenging myself, and creating interesting things.</p>
+            <a download="Cv Anabela Parareda" href="CvLinkedinAnabelaParareda.pdf">View CV</a>
         </div>
     </section>
 
-    <!-- SECCION HABILIDADES -->
+    <!-- SKILLS SECTION -->
     <section id="myskills">
     <div class="container-skills" id="skills">
-        <h3 class="titulo-skills">HABILIDADES</h3>
+        <h3 class="titulo-skills">SKILLS</h3>
         <div class="skill">
             <div class="info">
                 <p>Front-end</p>
-                <span class="porcentaje">80%</span>
+                <span class="percentage">80%</span>
             </div>
     
             <div class="barra">
@@ -96,7 +96,7 @@
         <div class="skill">
             <div class="info">
                 <p>Back-end</p>
-                <span class="porcentaje">60%</span>
+                <span class="percentage">60%</span>
             </div>
     
             <div class="barra">
@@ -106,7 +106,7 @@
         <div class="skill">
             <div class="info">
                 <p>ReactJS</p>
-                <span class="porcentaje">50%</span>
+                <span class="percentage">50%</span>
             </div>
     
             <div class="barra">
@@ -116,7 +116,7 @@
         <div class="skill">
             <div class="info">
                 <p>Angular</p>
-                <span class="porcentaje">45%</span>
+                <span class="percentage">45%</span>
             </div>
     
             <div class="barra">
@@ -126,59 +126,59 @@
     </div>
     </section>
 
-    <!-- SECCION PROYECTOS -->
+    <!-- PROJECTS SECTION -->
     <section id="projects">
-        <h2 class="titulo-projects">Proyectos</h2>
+        <h2 class="title-projects">Projects</h2>
     <div style="display: flex; flex-direction: row; justify-content: center; gap: 80px;">
         <div class="project">
-          <h3>Proyecto 1</h3>
+          <h3>Project 1</h3>
           <img src="img/imgprueba.avif" alt="prueba">
-          <p >Descripción breve del proyecto 1.</p>
+          <p>Brief description of the project 1.</p>
           <div class="link">
-          <a href="#">Ver</a>
+          <a href="#">View</a>
         </div>
         </div>
         <div class="project">
-          <h3>Proyecto 2</h3>
+          <h3>Project 2</h3>
           <img src="img/imgprueba.avif" alt="prueba">
-          <p>Descripción breve del proyecto 2.</p>
+          <p>Brief description of the project 2.</p>
           <div class="link">
-            <a href="#">Ver</a>
+            <a href="#">View</a>
           </div>
         </div>
         <div class="project">
-          <h3>Proyecto 3</h3>
+          <h3>Project 3</h3>
           <img src="img/imgprueba.avif" alt="prueba">
-          <p>Descripción breve del proyecto 3.</p>
+          <p>Brief description of the project 3.</p>
           <div class="link">
-            <a href="#">Ver</a>
+            <a href="#">View</a>
           </div>
         </div>
     </div>
       </section>     
 
-    <!-- SECCION CONTACTO -->
+    <!-- CONTACT SECTION -->
     <section id="contact">
-        <h3 class="titulo-seccion">Contactame</h3>
+        <h3 class="section-title">Contact me</h3>
         <div class="container-form">
             <form id="contactForm" action="">
-                <div class="formulario" id="form">
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="contact__input"> <!--<i class="contact__validacion-estado fa-light fa-circle-xmark"></i>-->
+                <div class="form" id="Form">
+                    <input type="text" id="name" name="name" placeholder="Name" class="contact__input"> <!--<i class="contact__validacion-estado fa-light fa-circle-xmark"></i>-->
                     <input type="email" id="email" name="email" placeholder="Email" class="contact__input">
                 </div>
-                <div class="casilla">
-                    <textarea type="message" id="mensaje" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje.." class="input-full" style="width: 770px; height: 200px;"></textarea>
+                <div class="box">
+                    <textarea type="message" id="menssage" name="message" cols="30" rows="10" placeholder="Your message.." class="input-full" style="width: 770px; height: 200px;"></textarea>
                 </div>
-                    <input type="submit" value="Enviar" class="btn-enviar">
+                    <input type="submit" value="Send" class="btn-send">
             </form>
         </div>
     </section>
     </div>
 
-    <!-- SECCION FOOTER -->
+    <!-- FOOTER SECTION -->
     <footer>
-        <p>Todos los derechos reservados - 2024</p>
-        <div class="redes2">
+        <p>All rights reserved - 2024</p>
+        <div class="networks2">
             <a href="https://www.linkedin.com/in/anabela-parareda-653523229/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/AnabelaParareda" target="_blank"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.instagram.com/xaepsx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
