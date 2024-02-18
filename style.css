@@ -183,7 +183,7 @@ html {
 }
 
 .container-skills .skill {
-    max-width: 600px;
+    max-width: 300px;
     margin: 25px auto;
 }
 
@@ -404,14 +404,14 @@ footer {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    padding: 30px 0px;
+    padding: 16px 0px;
 }
 
 footer a {
     text-decoration: none;
     color: #ffffff;
     display: inline-block;
-    margin: 2px;
+    margin: 3px;
     font-size: 17px;
 }
 
@@ -478,13 +478,13 @@ footer a {
         padding: 50px 15px;
     }
 
-    #contact .container-form .formulario {
+    #contact .container-form .form {
         margin-bottom: 15px;
         display: block;
     }
 
-    #contact .container-form .formulario input {
+    #contact .container-form .form input {
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
     }
 }
