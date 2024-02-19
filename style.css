@@ -13,14 +13,14 @@ html {
 
 /* HOME SECTION */
 
-#about {
+#home {
     background: linear-gradient(#000000b3, #000000b3), url("img/fondito5-transformed.png");
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
 
-#about .content header {
+#home .content header {
     background-color: #000000b3;
     position: fixed;
     width: 100%;
@@ -28,7 +28,7 @@ html {
     top: 0;
 }
 
-#about .content header .content-header {
+#home .content header .content-header {
     font-size: 14px;
     max-width: 1100px;
     margin: auto;
@@ -38,18 +38,18 @@ html {
     padding: 8px 20px;
 }
 
-#about .content header .content-header h1 {
+#home .content header .content-header h1 {
     text-align: center;
     color: #7b4b9e;
 }
 
-#about .content header .content-header nav ul {
+#home .content header .content-header nav ul {
     list-style: none;
     display: flex;
     align-items: center;
 }
 
-#about .content header .content-header nav ul li a {
+#home .content header .content-header nav ul li a {
     text-decoration: none;
     color: #ffffff;
     margin: 0 12px;
@@ -57,11 +57,11 @@ html {
     transition: .5s;
 }
 
-#about .content header .content-header nav ul a:hover {
+#home .content header .content-header nav ul a:hover {
     color: #b486d6;
 }
 
-#about .content header .content-header .networks1 a {
+#home .content header .content-header .networks1 a {
     text-decoration: none;
     font-size: 22px;
     color: #7b4b9e;
@@ -69,15 +69,15 @@ html {
     transition: .5s;
 }
 
-#about .content header .content-header .networks1 a:hover {
+#home .content header .content-header .networks1 a:hover {
     color: #ffffff;
 }
 
-#about .content header .content-header .seleccionado {
+#home .content header .content-header .seleccionado {
     color: #7b4b9e;
 }
 
-#about .content .presentation {
+#home .content .presentation {
     max-width: 1000px;
     height: 100vh;
     margin: auto;
@@ -88,20 +88,20 @@ html {
     justify-content: center;
 }
 
-#about .content .presentation .welcome {
+#home .content .presentation .welcome {
     font-size: 20px;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 
-#about .content .presentation h2 {
+#home .content .presentation h2 {
     font-size: 40px;
     margin-bottom: 25px;
     text-align: center;
 }
 
-#about .content .presentation h2 span {
+#home .content .presentation h2 span {
     color: #7b4b9e;
 }
 
@@ -113,19 +113,22 @@ html {
 /* ABOUT ME SECTION */
 
 #aboutme {
-    max-width: 9000px;
-    margin: auto;
-    padding: 60px 0;
-    color: #000000;
-    display: flex;
+    background-image: url(img/imgme.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 #aboutme .aboutme {
     text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+    color: #000000;
 }
 
 #aboutme .aboutme .section-title {
     font-size: 20px;
+    margin-bottom: 40px;
     text-transform: uppercase;
     text-align: center;
     color: #7b4b9e;
@@ -133,16 +136,17 @@ html {
 
 #aboutme .aboutme p {
     font-size: 20px;
-    line-height: 25px;
+    text-align: center;
+    line-height: 28px;
     color: #000000;
-    padding: 0px 60px;
+    padding: 10px 10px;
 
 }
 
 #aboutme .aboutme h2 {
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 1px;
-    padding: 40px;
+    margin-bottom: 30px;
 }
 
 #aboutme .aboutme h2 span {
@@ -167,7 +171,6 @@ html {
     color: #fff;
 }
 
-
 /* SKILLS SECTION */
 
 .container-skills {
@@ -180,6 +183,10 @@ html {
     background-position: center center;
     padding: 60px 0px;
     text-align: center;
+}
+
+.container-skills h3 {
+    margin-bottom: 50px;
 }
 
 .container-skills .skill {
@@ -342,7 +349,7 @@ html {
 }
 
 #contact .section-title {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
