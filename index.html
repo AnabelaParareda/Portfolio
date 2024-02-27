@@ -4,27 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/ico2.ico">
     <title>Anna Developer</title>
     <script defer src="validate.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script type="text/javascript">
-        (function() {
+        (function () {
             emailjs.init('7t-x1Sthn7IqkWnxl');
         })();
     </script>
     <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contactForm').addEventListener('submit', function(event) {
+        window.onload = function () {
+            document.getElementById('contactForm').addEventListener('submit', function (event) {
                 event.preventDefault();
                 emailjs.sendForm('service_ykwqthv', 'contactForm19', this)
-                    .then(function() {
+                    .then(function () {
                         console.log('SUCCESS!');
                         document.getElementById('contactForm').reset();
-                    }, function(error) {
+                    }, function (error) {
                         console.log('FAILED...', error);
                     });
             });
@@ -50,14 +53,17 @@
                     </nav>
                     <!-- RESPONSIVE MENU ICON -->
                     <div id="icono-nav" onclick="responsiveMenu()">
-                    <i class='fa-solid fa-bars'></i>
+                        <i class='fa-solid fa-bars'></i>
                     </div>
 
                     <!-- SOCIAL NETWORKS ICONS -->
                     <div class="networks1">
-                        <a href="https://www.linkedin.com/in/anabela-parareda-653523229/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/AnabelaParareda" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.instagram.com/xaepsx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anabela-parareda-653523229/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/AnabelaParareda" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/xaepsx" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </header>
@@ -74,89 +80,96 @@
         <div class="aboutme">
             <p class="section-title">About me</p>
             <h2>Hi, i'm <span>Anna!</span></h2>
-            <p>I am 22 years old and I am from Buenos Aires, Argentina. I consider myself a resourceful and detail-oriented person, I learn quickly and can handle conflicts that arise unexpectedly. I have been interested in and involved in the world of development for several years, until I made the decision to start at the Provincial University of Ezeiza in the Software Development Technology course and then took several online courses. What I am passionate about in development is that incredible things can be created with effort, dedication, and imagination.</p>
-            <p>I usually work as a freelancer most of the time, but I am always prepared for a job opportunity. I have experience in Front-end, some in Back-end, and Digital Marketing. I would like to continue learning, challenging myself, and creating interesting things.</p>
+            <p>I am 22 years old and I am from Buenos Aires, Argentina. I consider myself a resourceful and
+                detail-oriented person, I learn quickly and can handle conflicts that arise unexpectedly. I have been
+                interested in and involved in the world of development for several years, until I made the decision to
+                start at the Provincial University of Ezeiza in the Software Development Technology course and then took
+                several online courses. What I am passionate about in development is that incredible things can be
+                created with effort, dedication, and imagination.</p>
+            <p>I usually work as a freelancer most of the time, but I am always prepared for a job opportunity. I have
+                experience in Front-end, some in Back-end, and Digital Marketing. I would like to continue learning,
+                challenging myself, and creating interesting things.</p>
             <a download="Cv Anabela Parareda" href="CvLinkedinAnabelaParareda.pdf">View CV</a>
         </div>
     </section>
 
     <!-- SKILLS SECTION -->
     <section id="myskills">
-    <div class="container-skills" id="skills">
-        <h3 class="titulo-skills">SKILLS</h3>
-        <div class="skill">
-            <div class="info">
-                <p>Front-end</p>
-                <span class="percentage">80%</span>
+        <div class="container-skills" id="skills">
+            <h3 class="titulo-skills">SKILLS</h3>
+            <div class="skill">
+                <div class="info">
+                    <p>Front-end</p>
+                    <span class="percentage">80%</span>
+                </div>
+
+                <div class="barra">
+                    <div id="frontend"></div>
+                </div>
             </div>
-    
-            <div class="barra">
-                <div id="frontend"></div>
+            <div class="skill">
+                <div class="info">
+                    <p>Back-end</p>
+                    <span class="percentage">60%</span>
+                </div>
+
+                <div class="barra">
+                    <div id="backend"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p>ReactJS</p>
+                    <span class="percentage">50%</span>
+                </div>
+
+                <div class="barra">
+                    <div id="reactjs"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p>Angular</p>
+                    <span class="percentage">45%</span>
+                </div>
+
+                <div class="barra">
+                    <div id="angular"></div>
+                </div>
             </div>
         </div>
-        <div class="skill">
-            <div class="info">
-                <p>Back-end</p>
-                <span class="percentage">60%</span>
-            </div>
-    
-            <div class="barra">
-                <div id="backend"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <div class="info">
-                <p>ReactJS</p>
-                <span class="percentage">50%</span>
-            </div>
-    
-            <div class="barra">
-                <div id="reactjs"></div>
-            </div>
-        </div>
-        <div class="skill">
-            <div class="info">
-                <p>Angular</p>
-                <span class="percentage">45%</span>
-            </div>
-    
-            <div class="barra">
-                <div id="angular"></div>
-            </div>
-        </div>
-    </div>
     </section>
 
     <!-- PROJECTS SECTION -->
     <section id="projects">
         <h2 class="title-projects">Projects</h2>
-    <div style="display: flex; flex-direction: row; justify-content: center; gap: 80px;">
-        <div class="project">
-          <h3>Project 1</h3>
-          <img src="img/imgprueba.avif" alt="prueba">
-          <p>Brief description of the project 1.</p>
-          <div class="link">
-          <a href="#">View</a>
+        <div style="display: flex; flex-direction: row; justify-content: center; gap: 80px;">
+            <div class="project">
+                <h3>Project 1</h3>
+                <img src="img/imgprueba.avif" alt="prueba">
+                <p>Brief description of the project 1.</p>
+                <div class="link">
+                    <a href="#">View</a>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <img src="img/imgprueba.avif" alt="prueba">
+                <p>Brief description of the project 2.</p>
+                <div class="link">
+                    <a href="#">View</a>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <img src="img/imgprueba.avif" alt="prueba">
+                <p>Brief description of the project 3.</p>
+                <div class="link">
+                    <a href="#">View</a>
+                </div>
+            </div>
         </div>
-        </div>
-        <div class="project">
-          <h3>Project 2</h3>
-          <img src="img/imgprueba.avif" alt="prueba">
-          <p>Brief description of the project 2.</p>
-          <div class="link">
-            <a href="#">View</a>
-          </div>
-        </div>
-        <div class="project">
-          <h3>Project 3</h3>
-          <img src="img/imgprueba.avif" alt="prueba">
-          <p>Brief description of the project 3.</p>
-          <div class="link">
-            <a href="#">View</a>
-          </div>
-        </div>
-    </div>
-      </section>     
+    </section>
 
     <!-- CONTACT SECTION -->
     <section id="contact">
@@ -164,13 +177,15 @@
         <div class="container-form">
             <form id="contactForm" action="">
                 <div class="form" id="form">
-                    <input type="text" id="name" name="name" placeholder="Name" class="contact__input"> <!--<i class="contact__validacion-estado fa-light fa-circle-xmark"></i>-->
+                    <input type="text" id="name" name="name" placeholder="Name" class="contact__input">
+                    <!--<i class="contact__validacion-estado fa-light fa-circle-xmark"></i>-->
                     <input type="email" id="email" name="email" placeholder="Email" class="contact__input">
                 </div>
                 <div class="box">
-                    <textarea type="message" id="menssage" name="message" cols="30" rows="10" placeholder="Your message.." class="input-full" style="width: 770px; height: 150px;"></textarea>
+                    <textarea type="message" id="menssage" name="message" cols="30" rows="10"
+                        placeholder="Your message.." class="input-full" style="width: 770px; height: 150px;"></textarea>
                 </div>
-                    <input type="submit" value="Send" class="btn-send">
+                <input type="submit" value="Send" class="btn-send">
             </form>
         </div>
     </section>
@@ -180,7 +195,8 @@
     <footer>
         <p>All rights reserved - 2024</p>
         <div class="networks2">
-            <a href="https://www.linkedin.com/in/anabela-parareda-653523229/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/anabela-parareda-653523229/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/AnabelaParareda" target="_blank"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.instagram.com/xaepsx" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </div>

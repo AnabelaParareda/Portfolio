@@ -35,7 +35,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 8px 0px;
 }
 
 #home .content header .content-header h1 {
@@ -122,7 +122,7 @@ html {
     bottom: 0px;
     left: 100px
 }
- 
+
 #aboutme .aboutme {
     text-align: center;
     max-width: 1200px;
@@ -132,7 +132,7 @@ html {
 }
 
 #aboutme .aboutme .section-title {
-    text-align: center;    
+    text-align: center;
     font-size: 24px;
     margin-bottom: 40px;
     text-transform: uppercase;
@@ -140,7 +140,7 @@ html {
 }
 
 #aboutme .aboutme p {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     line-height: 28px;
     color: #000000;
@@ -173,7 +173,7 @@ html {
 }
 
 #aboutme .aboutme a:hover {
-    background-color:  #2f1346;
+    background-color: #2f1346;
     color: #fff;
 }
 
@@ -288,7 +288,7 @@ html {
     max-width: 1000px;
     margin: 0 auto;
     padding: 90px 0px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -307,7 +307,7 @@ html {
     box-shadow: 0 4px 8px #743e81;
 }
 
-.project img{
+.project img {
     width: 100%;
 }
 
@@ -337,7 +337,7 @@ html {
     text-align: center;
 }
 
-.project a{
+.project a {
     color: #753685;
     text-decoration: none;
 }
@@ -397,7 +397,8 @@ html {
 }
 
 #contact .btn-send {
-    background-color: #ffffff;;
+    background-color: #ffffff;
+    ;
     display: block;
     margin: auto;
     cursor: pointer;
